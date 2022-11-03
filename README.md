@@ -7,6 +7,7 @@ Please read the rules and instructions carefully.
 * You are allowed to use LearningSuite material, past homework assignments, and anything posted on our [class GitHub page](https://github.com/stat386-fall2022)
 * You are allowed to use a search engine (Google, Bing, etc.) to search for the code to do a specific task
 * You are **NOT** allowed to use a search engine (Google, Bing, etc.) to search for similar or identical exam questions
+* You are **NOT** allowed to use material from past (386/426) semesters
 * The exam should be completed individually and you should not work with or discuss the exam with any other living person 
 
  
