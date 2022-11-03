@@ -30,6 +30,7 @@ Please read the rules and instructions carefully.
 * It's up to you whether you push your work once at the end or as you go.     
 * For ease in grading, you will report answers in a [LearningSuite Exam](https://learningsuite.byu.edu/.W-9A/cid-e0PuJi4wmjUo/student/exam/info/id-xVR6) called "Midterm Answers."  
 * You will be finished with the exam once all relevant file are in the remote repository AND you have finished the "Midterm Answers" LearningSuite exam.
+* Exam is due Tuesday, November 8 at **9:30AM**
 
 ---
 ## Part I
