@@ -18,7 +18,7 @@ Please read the instructions carefully.
   * A README file that has a short description of the repository (i.e., something like "The repo contains the code and other file for my 386 midterm" is sufficient)
 
 * It's up to you whether you push your work once at the end or as you go.     
-* For ease in grading, you will report answers in a [LearningSuite Exam]() called "Midterm Answers."  
+* For ease in grading, you will report answers in a [LearningSuite Exam](https://learningsuite.byu.edu/.W-9A/cid-e0PuJi4wmjUo/student/exam/info/id-xVR6) called "Midterm Answers."  
 
 
 ## Part I
