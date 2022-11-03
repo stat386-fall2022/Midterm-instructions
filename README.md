@@ -1,16 +1,25 @@
 # Stat 386 Midterm Exam 
-Welcome to the midterm!  A few of the skills that I am assessing with this exam include:  git, GitHub, data wrangling, data cleaning, simple web scraping, and simple summary statistics.  Depending on your skill, preparation, and understanding of the class material, I expect that the exam should take between 2 and 8 hours.  There is no formal time limit, but I would prefer that you limit yourself to 8 hours.  
+Welcome to the midterm!  A few of the skills that I am assessing with this exam include:  git, GitHub, data wrangling, data cleaning, simple web scraping, and simple summary statistics.  Depending on your skill, preparation, and understanding of the class material, I expect that the exam should take between 2 and 8 hours.  There is no formal time limit, but I would prefer that you limit yourself to 8 hours.  Keep track of the amount of time that you spend so that you can report it at the end.  
 
-Please read the instructions carefully.  
+Please read the rules and instructions carefully. 
+
+## Rules
+* You are allowed to use LearningSuite material, past homework assignments, and anything posted on our [class GitHub page](https://github.com/stat386-fall2022)
+* You are allowed to use a search engine (Google, Bing, etc.) to search for the code to do a specific task
+* You are **NOT** allowed to use a search engine (Google, Bing, etc.) to search for similar or identical exam questions
+* The exam should be completed individually and you should not work with or discuss the exam with any other living person 
+
+ 
 
 ## Instructions
 * You should create a new folder on your computer where you will do all your work for this exam.  You should initialize the folder as a git repository.   
-* Part of your grade will be based on whether I can run your code without errors.  As such, I would like you to have the data used for the exam in the same folder as your code.  However, the data should not be included in any of your commits, so you'll need to create a .gitignore file. 
-* Notebook checkpoints should also be in the .gitignore
-* As you are working, you should make *at least* 4 commits.  You can decide when to commit but two logical commit points are after completing Part I and after completing Part II.  You should have sensible and informative commit messages.  
-* All your work should be pushed to the GitHub repository `midterm-<yourUserName>`.  Clicking on [this link](https://classroom.github.com/a/MInIk_-5) and accepting the assignment will create an this repository for you.  Upon creation, the repository with be **empty**.  You will need to add files to the repository.  For Your repository should contain the following files:
+* Part of your grade will be based on whether I can run your code without errors.  As such, I would like you to have the data used for the exam in the same folder as your code (so that everyone will have the same path to data).  However, the data should **not** be included in any of your commits, so you'll need to create a .gitignore file. 
+* Notebook checkpoints and .DS_Store files should also be in the .gitignore
+* As you are working, you should make **at least** 4 commits.  You can decide when to commit but two logical commit points are after completing Part I and after completing Part II.  You should have sensible and informative commit messages.  
+* All your work should be pushed to the GitHub repository `midterm-<yourUserName>`.  Clicking on [this link](https://classroom.github.com/a/MInIk_-5) and accepting the assignment will create an this repository for you.  Upon creation, the repository with be **empty**.  You will need to add files from your local git repo to the remote repository.  
+* You final submission should include the following files:
   * A .ipynb or .py file with the code used to answer the questions (this should be neat, organized, and I should be able to run it without errors)
-  * A file called gitlog.txt that is a text file containing the log of all your commits.  You can make this file by typing the following in the command line while inside the repo: 
+  * A file called gitlog.txt that is a text file containing the log of all your commits.  You can make this file by typing the following in the command line while inside the local repo: 
     ```
     git log > gitlog.txt` 
     ```
@@ -19,15 +28,16 @@ Please read the instructions carefully.
 
 * It's up to you whether you push your work once at the end or as you go.     
 * For ease in grading, you will report answers in a [LearningSuite Exam](https://learningsuite.byu.edu/.W-9A/cid-e0PuJi4wmjUo/student/exam/info/id-xVR6) called "Midterm Answers."  
+* You will be finished with the exam once all relevant file are in the remote repository AND you have finished the "Midterm Answers" LearningSuite exam.
 
-
+---
 ## Part I
 The data for this part is found in the class [homework data repository](https://github.com/stat386-fall2022/homework-data) in the "GapMinder" folder.  The two datasets in this folder ("life_expectancy_years.csv" and "hapiscore_whr.csv") were downloaded directly from the [gapminder website](https://www.gapminder.org/data/). 
 
 *Note: The life expectancy data was downloaded after selecting "Life expectancy" as the individual indicator.  The happiness data was downloaded after selecting "Society" then "Happiness Score (WHR)" as the indiviual indicator.*
 
 
-1.  Clean/wrangle/combine these data in to one pandas DataFrame with exactly four columns:  (1) country, (2) year, (3) life expectency, (4) happiness score.  When combining, keep only countries and years that are in both datasets.
+1.  Clean/wrangle/combine these data in to one pandas DataFrame with exactly four columns:  (1) country, (2) year, (3) life expectency, (4) happiness score.  When combining, keep only country and year combinations that are in both datasets.
 
 2.  How many rows are in the final dataset?
 3.  How many missing values are in each of the four columns?  
@@ -56,7 +66,7 @@ The data for this part is found in the class [homework data repository](https://
 8. After filling the missing values, what are the countries with the highest and lowest **median** happiness scores?  Report both the country and the **median** rounded to 2 decimal places.  
     *If you can't figure out how to fill the missing values in (5), then answer this question without filling the missings.*
 
-
+---
 ## Part II
 
 The website basketball reference website has a lot of data about basketball. 
