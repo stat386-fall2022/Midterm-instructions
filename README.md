@@ -91,7 +91,7 @@ Information about NBA players can be found at
     * "BirthDate": Birthdate of NBA player
     * "Colleges": College attended by the NBP player
     
-    At the time of writing this, the final dataset had 5080 rows and 8 columns.  
+    At the time of writing this, the final dataset had 5080 rows and 8 columns.  (Sometime after Friday 11/4, the players were updated so that now there are 5082 rows).   
 
 2. Further clean/transform the scraped data by casting "From", "To", and "Wt" into numeric data. Also compute the following variables:
 
